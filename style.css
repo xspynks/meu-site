@@ -1,21 +1,21 @@
         body {
             font-family: 'Times New Roman', Times, serif;
-            background-color: #faefe8;
+            background-color: #F2F2F2w;
             margin: 0;
-            border: 5px solid tomato;
+            border: 5px solid #FFB20F;
         }
         
         a:link {
-            text-decoration: none black;
+            text-decoration: none;
         }
         
         a:visited {
-            color: white;
+            color: #C03221;
         }
         
         a:hover {
             text-decoration: overline dotted;
-            color: tomato;
+            color: #FFB20F;
         }
         
         header {
@@ -42,7 +42,7 @@
             margin-left: 60px;
             font-family: 'Ubuntu', sans-serif;
             font-size: 20px;
-            color: black;
+            color: #1C0221;
         }
         
         .socialMedia1 {
@@ -70,7 +70,7 @@
         .menuMain {
             width: max-content;
             display: inline-block;
-            color: rgb(0, 0, 0);
+            color: #1C0221;
             margin-top: -45px;
             margin-left: 718px;
             display: flex;
@@ -90,22 +90,22 @@
             font-size: 17px;
             text-align: center;
             color: black;
-            text-decoration: underline gray 4px;
+            text-decoration: underline #25283D 4px;
         }
         
         #menu li a:hover {
-            text-decoration: underline 6px rgb(255, 156, 138);
+            text-decoration: underline 6px #FFB20F;
         }
         
         .subtitulo {
             font-family: 'Poppins', sans-serif;
             font-size: 18px;
-            color: rgb(3, 27, 54);
+            color: #25283D;
             font-style: normal;
             margin-top: 130px;
             margin-right: 310px;
             margin-left: 358px;
-            color: tomato;
+            color: #FFB20F;
             text-decoration: none;
         }
         
@@ -117,6 +117,7 @@
             margin-right: 300px;
             margin-left: 355px;
             text-decoration: none;
+            color: #C03221;
         }
         
         .descricao {
@@ -124,7 +125,7 @@
             font-family: 'Roboto', sans-serif;
             font-size: 24px;
             font-style: normal;
-            color: rgb(3, 42, 82);
+            color: #1C0221;
             margin-left: 356px;
             margin-top: -10px;
             text-decoration: none;
@@ -162,15 +163,25 @@
         .mandeUmOi {
             font-family: 'Poppins', sans-serif;
             font-size: 20px;
-            background: rgb(0, 0, 0);
+            background: #1C0221;
             width: 200px;
             border-radius: 8px;
             margin-top: 50px;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 20px;
-            color: white;
+            color: #F2F2F2;
             text-align: center;
+            text-decoration: none;
+        }
+        
+        .mandeUmOi a:visited {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        .mandeUmOi a:hover {
+            color: #FFB20F;
         }
         
         .rodape {
