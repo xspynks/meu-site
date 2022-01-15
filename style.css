@@ -1,6 +1,6 @@
         body {
             font-family: 'Times New Roman', Times, serif;
-            background-color: #F2F2F2w;
+            background-color: #F2F2F2;
             margin: 0;
             border: 5px solid #FFB20F;
         }
@@ -184,7 +184,7 @@
             color: #FFB20F;
         }
         
-        .rodape {
+        footer {
             font-family: 'Poppins', sans-serif;
             text-align: center;
         }
