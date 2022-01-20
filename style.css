@@ -1,190 +1,210 @@
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            background-color: #F2F2F2;
-            margin: 0;
-            border: 5px solid #FFB20F;
-        }
-        
-        a:link {
-            text-decoration: none;
-        }
-        
-        a:visited {
-            color: #C03221;
-        }
-        
-        a:hover {
-            text-decoration: overline dotted;
-            color: #FFB20F;
-        }
-        
-        header {
-            width: 1100px;
-            height: 80px;
-            display: block;
-            margin-top: 55px;
-            margin-left: 357px;
-            margin-right: 360px;
-            font-size: 24px;
-        }
-        
-        .avatarLogo {
-            border-radius: 50%;
-            margin-right: 5px;
-        }
-        
-        .textoLogo {
-            width: 300px;
-            height: auto;
-            display: block;
-            margin-top: -43px;
-            margin-right: -60px;
-            margin-left: 60px;
-            font-family: 'Ubuntu', sans-serif;
-            font-size: 20px;
-            color: #1C0221;
-        }
-        
-        .socialMedia1 {
-            width: auto;
-            height: auto;
-            margin-left: 356px;
-            font-family: 'Poppins', sans-serif;
-            font-size: 30px;
-            color: rgb(31, 26, 26);
-            font-style: normal;
-            text-decoration: none;
-        }
-        
-        .socialMedia2 {
-            width: auto;
-            height: auto;
-            margin-left: 13px;
-            font-family: 'Poppins', sans-serif;
-            font-size: 30px;
-            color: rgb(31, 26, 26);
-            font-style: normal;
-            text-decoration: none;
-        }
-        
-        .menuMain {
-            width: max-content;
-            display: inline-block;
-            color: #1C0221;
-            margin-top: -45px;
-            margin-left: 718px;
-            display: flex;
-        }
-        
-        #menu {
-            list-style: none;
-            padding: 0;
-        }
-        
-        #menu li {
-            display: inline;
-        }
-        
-        #menu li a {
-            font-family: 'Poppins', sans-serif;
-            font-size: 17px;
-            text-align: center;
-            color: black;
-            text-decoration: underline #25283D 4px;
-        }
-        
-        #menu li a:hover {
-            text-decoration: underline 6px #FFB20F;
-        }
-        
-        .subtitulo {
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            color: #25283D;
-            font-style: normal;
-            margin-top: 130px;
-            margin-right: 310px;
-            margin-left: 358px;
-            color: #FFB20F;
-            text-decoration: none;
-        }
-        
-        .titulo {
-            font-family: 'Poppins', sans-serif;
-            font-size: 72px;
-            font-style: normal;
-            margin-top: -10px;
-            margin-right: 300px;
-            margin-left: 355px;
-            text-decoration: none;
-            color: #C03221;
-        }
-        
-        .descricao {
-            width: 1141px;
-            font-family: 'Roboto', sans-serif;
-            font-size: 24px;
-            font-style: normal;
-            color: #1C0221;
-            margin-left: 356px;
-            margin-top: -10px;
-            text-decoration: none;
-        }
-        
-        .contato {
-            margin: auto;
-            margin-top: 141px;
-            width: max-content;
-            font-family: 'Roboto', sans-serif;
-            font-size: 28px;
-            font-weight: bold;
-            margin-bottom: 25px;
-        }
-        
-        .boxContato {
-            display: block;
-            border-radius: 10px;
-            border-color: black;
-            border-style: solid;
-            width: 800px;
-            height: 180px;
-            margin: auto;
-        }
-        
-        .textoContato {
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-            margin-top: 30px;
-            margin-left: auto;
-            margin-right: auto;
-            width: max-content;
-        }
-        
-        .mandeUmOi {
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-            background: #1C0221;
-            width: 200px;
-            border-radius: 8px;
-            margin-top: 50px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 20px;
-            color: #F2F2F2;
-            text-align: center;
-            text-decoration: none;
-        }
-        
-        .mandeUmOi a:visited {
-            color: inherit;
-            text-decoration: none;
-        }
-        
-        .mandeUmOi a:hover {
-            color: #FFB20F;
-        }
-        
-        footer {
-            font-family: 'Poppins', sans-serif;
-            text-align: center;
-        }
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+    display: grid;
+    border: 5px solid #FFB20F;
+}
+
+.container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: #1C0221;
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.box-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #C03221;
+}
+
+a:hover {
+    text-decoration: overline dotted;
+    color: #FFB20F;
+}
+
+.avatarLogo {
+    border-radius: 50%;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    gap: 10px;
+}
+
+.menuMain {
+    width: max-content;
+    color: #1C0221;
+    display: flex;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: black;
+    text-decoration: underline #25283D 4px;
+}
+
+#menu li a:hover {
+    text-decoration: underline 6px #FFB20F;
+}
+
+.socialMedia1 {
+    width: auto;
+    height: auto;
+    margin-left: 356px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(31, 26, 26);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.socialMedia2 {
+    width: auto;
+    height: auto;
+    margin-left: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(31, 26, 26);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.mainContainer {
+    width: 800px;
+    padding: 60px 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.subtitulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #25283D;
+    font-style: normal;
+    margin-top: 130px;
+    margin-right: 310px;
+    margin-left: 358px;
+    color: #FFB20F;
+    text-decoration: none;
+}
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    margin-top: -10px;
+    margin-right: 300px;
+    margin-left: 355px;
+    text-decoration: none;
+    color: #C03221;
+}
+
+.descricao {
+    width: 1141px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    color: #1C0221;
+    margin-left: 356px;
+    margin-top: -10px;
+    text-decoration: none;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: auto;
+    margin-left: 357px;
+    gap: 10px;
+}
+
+.contato {
+    margin: auto;
+    margin-top: 141px;
+    width: max-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.boxContato {
+    display: block;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 800px;
+    height: 180px;
+    margin: auto;
+}
+
+.textoContato {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.mandeUmOi {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background: #1C0221;
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: #F2F2F2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.mandeUmOi a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.mandeUmOi a:hover {
+    color: #FFB20F;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
