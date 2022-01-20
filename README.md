@@ -1,2 +1,2 @@
-# meu-site-1.0
+# meu-site
 estudos sobre front-end 
