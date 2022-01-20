@@ -36,6 +36,7 @@ a:link {
 
 a:visited {
     color: #C03221;
+    text-decoration: none;
 }
 
 a:hover {
@@ -79,28 +80,6 @@ a:hover {
 
 #menu li a:hover {
     text-decoration: underline 3px #FFB20F;
-}
-
-.socialMedia1 {
-    width: auto;
-    height: auto;
-    margin-left: 356px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    color: rgb(31, 26, 26);
-    font-style: normal;
-    text-decoration: none;
-}
-
-.socialMedia2 {
-    width: auto;
-    height: auto;
-    margin-left: 13px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    color: rgb(31, 26, 26);
-    font-style: normal;
-    text-decoration: none;
 }
 
 .mainContainer {
@@ -210,23 +189,27 @@ footer {
     }
     .mainContainer {
         width: 100%;
-        padding: 10px
     }
     .titulo {
         width: 100%;
     }
-    .menuMain {
-        margin: 0;
-    }
+    .menuMain {}
     .descricao {
         width: 100%;
         font-size: 18px;
     }
+    .subtitulo {}
+    .socialContainer {}
     .subtitulo,
     .titulo,
     .contato,
-    .textoContato {
+    .textoContato,
+    .socialContainer,
+    .menuMain {
         width: 100%;
+    }
+    .box-logo {
+        align-self: center;
     }
     .boxContato {
         width: 80%;
