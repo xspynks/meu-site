@@ -1,5 +1,5 @@
 body {
-    background-color: #F2F2F2;
+    background-color: #FFFFFA;
     margin: 0;
     padding: 0;
     border: 5px #FFB20F;
@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .texto-logo {
@@ -183,17 +184,21 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
     }
     .mainContainer {
         width: 100%;
+        text-align: center;
     }
     .titulo {
         width: 100%;
     }
-    .menuMain {}
+    .menuMain {
+        margin: 0;
+        padding: 0;
+    }
     .descricao {
         width: 100%;
         font-size: 18px;
@@ -207,9 +212,11 @@ footer {
     .socialContainer,
     .menuMain {
         width: 100%;
+        justify-content: center;
     }
     .box-logo {
         align-self: center;
+        margin: 0;
     }
     .boxContato {
         width: 80%;
@@ -221,5 +228,8 @@ footer {
     .contato {
         text-align: center;
         font-size: 18px;
+    }
+    .container {
+        margin: 0;
     }
 }
