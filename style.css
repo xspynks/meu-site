@@ -198,6 +198,7 @@ footer {
     .menuMain {
         margin: 0;
         padding: 0;
+        border-sizing: border-box;
     }
     .descricao {
         width: 100%;
