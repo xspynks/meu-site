@@ -1,284 +1,11 @@
-            <<<<<<< HEAD body {
-            background-color: #FFFFFA;
-            margin: 0;
-            padding: 0;
-            border: 5px #FFB20F;
-            border-style: solid solid dotted solid;
-        }
-        
-        .container {
-            width: 100%;
-            height: 150px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        
-        .texto-logo {
-            font-family: 'Ubuntu', sans-serif;
-            font-size: 20px;
-            color: #1C0221;
-            text-align: center;
-            justify-content: flex-start;
-            display: flex;
-        }
-        
-        .box-logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-left: 90px;
-        }
-        
-        a:link {
-            text-decoration: none;
-        }
-        
-        a:visited {
-            color: #C03221;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: overline dotted;
-            color: #FFB20F;
-        }
-        
-        .avatarLogo {
-            border-radius: 50%;
-        }
-        
-        .logo {
-            width: 48px;
-            height: 48px;
-            gap: 10px;
-        }
-        
-        .menuMain {
-            width: max-content;
-            color: #1C0221;
-            display: flex;
-            margin-right: 65px;
-        }
-        
-        #menu {
-            list-style: none;
-            padding: 0;
-        }
-        
-        #menu li {
-            display: inline;
-        }
-        
-        #menu li a {
-            font-family: 'Poppins', sans-serif;
-            font-size: 17px;
-            text-align: center;
-            color: black;
-            text-decoration: none;
-        }
-        
-        #menu li a:hover {
-            text-decoration: underline 3px #FFB20F;
-        }
-        
-        .mainContainer {
-            width: 1200px;
-            margin-right: auto;
-            margin-left: auto;
-            padding-top: 80px;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .subtitulo {
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            color: #25283D;
-            font-style: normal;
-            color: #FFB20F;
-            text-decoration: none;
-        }
-        
-        .titulo {
-            font-family: 'Poppins', sans-serif;
-            font-size: 72px;
-            text-decoration: none;
-            color: #C03221;
-            margin: 0;
-        }
-        
-        .descricao {
-            width: 1141px;
-            font-family: 'Roboto', sans-serif;
-            font-size: 24px;
-            font-style: normal;
-            color: #1C0221;
-            text-decoration: none;
-        }
-        
-        .socialContainer {
-            display: flex;
-            flex-direction: row;
-            width: max-content;
-            height: auto;
-            gap: 10px;
-        }
-        
-        .contato {
-            margin: auto;
-            margin-top: 141px;
-            width: max-content;
-            font-family: 'Roboto', sans-serif;
-            font-size: 28px;
-            font-weight: bold;
-            margin-bottom: 25px;
-        }
-        
-        .boxContato {
-            display: block;
-            border-radius: 10px;
-            border-color: black;
-            border-style: solid;
-            width: 800px;
-            height: 180px;
-            margin: auto;
-        }
-        
-        .textoContato {
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-            margin-top: 30px;
-            margin-left: auto;
-            margin-right: auto;
-            width: max-content;
-        }
-        
-        .mandeUmOi {
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-            background: #1C0221;
-            width: 200px;
-            border-radius: 8px;
-            margin-top: 50px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 20px;
-            color: #F2F2F2;
-            text-align: center;
-            text-decoration: none;
-        }
-        
-        .mandeUmOi a:visited {
-            color: inherit;
-            text-decoration: none;
-        }
-        
-        .mandeUmOi a:hover {
-            color: #FFB20F;
-        }
-        
-        footer {
-            font-family: 'Poppins', sans-serif;
-            text-align: center;
-        }
-        /* responsive */
-        
-        @media screen and (max-width: 1024px) {
-            .container {
-                flex-direction: column;
-            }
-            .mainContainer {
-                width: max-content;
-                text-align: center;
-            }
-            .titulo {
-                width: 100%;
-            }
-            .menuMain {
-                margin: 0;
-                padding: 0;
-            }
-            .descricao {
-                width: 100%;
-                font-size: 18px;
-            }
-            .subtitulo {}
-            .socialContainer {}
-            .subtitulo,
-            .titulo,
-            .contato,
-            .textoContato,
-            .socialContainer,
-            .menuMain {
-                width: 100%;
-                justify-content: center;
-            }
-            .box-logo {
-                align-self: center;
-                margin: 0;
-            }
-            .boxContato {
-                width: 80%;
-            }
-            .textoContato {
-                font-size: 18px;
-                text-align: center;
-            }
-            .contato {
-                text-align: center;
-                font-size: 18px;
-            }
-            .container {
-                margin: 0;
-            }
-        }
-        
-        @media screen and (max-width: 768px) {
-            .container {
-                text-align: center;
-            }
-            .menuMain {}
-            .descricao {
-                width: 700px;
-            }
-        }
-        
-        @media screen and (max-width: 425px) {
-            .container {
-                max-width: 100%;
-                flex-direction: row;
-                display: flex;
-            }
-            body {
-                width: 100%;
-            }
-            .mainContainer {
-                max-width: 100%;
-                text-align: center;
-                margin: 0;
-                padding: 0;
-            }
-            .descricao {
-                max-width: 400px;
-                align-self: center;
-            }
-            .menuMain {
-                display: none;
-            }
-            @media screen and (max-width: 375px) {
-                .descricao {
-                    max-width: 100%;
-                }
-            }
-            =======body {
+                body {
                 background-color: #FFFFFA;
                 margin: 0;
                 padding: 0;
                 border: 5px #FFB20F;
                 border-style: solid solid dotted solid;
             }
+            
             .container {
                 width: 100%;
                 height: 150px;
@@ -287,6 +14,7 @@
                 align-items: center;
                 flex-wrap: wrap;
             }
+            
             .texto-logo {
                 font-family: 'Ubuntu', sans-serif;
                 font-size: 20px;
@@ -295,44 +23,54 @@
                 justify-content: flex-start;
                 display: flex;
             }
+            
             .box-logo {
                 display: flex;
                 align-items: center;
                 gap: 10px;
                 margin-left: 90px;
             }
+            
             a:link {
                 text-decoration: none;
             }
+            
             a:visited {
                 color: #C03221;
                 text-decoration: none;
             }
+            
             a:hover {
                 text-decoration: overline dotted;
                 color: #FFB20F;
             }
+            
             .avatarLogo {
                 border-radius: 50%;
             }
+            
             .logo {
                 width: 48px;
                 height: 48px;
                 gap: 10px;
             }
+            
             .menuMain {
                 width: max-content;
                 color: #1C0221;
                 display: flex;
                 margin-right: 65px;
             }
+            
             #menu {
                 list-style: none;
                 padding: 0;
             }
+            
             #menu li {
                 display: inline;
             }
+            
             #menu li a {
                 font-family: 'Poppins', sans-serif;
                 font-size: 17px;
@@ -340,9 +78,11 @@
                 color: black;
                 text-decoration: none;
             }
+            
             #menu li a:hover {
                 text-decoration: underline 3px #FFB20F;
             }
+            
             .mainContainer {
                 width: 1200px;
                 margin-right: auto;
@@ -351,6 +91,7 @@
                 display: flex;
                 flex-direction: column;
             }
+            
             .subtitulo {
                 font-family: 'Poppins', sans-serif;
                 font-size: 18px;
@@ -359,6 +100,7 @@
                 color: #FFB20F;
                 text-decoration: none;
             }
+            
             .titulo {
                 font-family: 'Poppins', sans-serif;
                 font-size: 72px;
@@ -366,6 +108,7 @@
                 color: #C03221;
                 margin: 0;
             }
+            
             .descricao {
                 width: 1141px;
                 font-family: 'Roboto', sans-serif;
@@ -374,6 +117,7 @@
                 color: #1C0221;
                 text-decoration: none;
             }
+            
             .socialContainer {
                 display: flex;
                 flex-direction: row;
@@ -381,6 +125,7 @@
                 height: auto;
                 gap: 10px;
             }
+            
             .contato {
                 margin: auto;
                 margin-top: 141px;
@@ -390,6 +135,7 @@
                 font-weight: bold;
                 margin-bottom: 25px;
             }
+            
             .boxContato {
                 display: block;
                 border-radius: 10px;
@@ -399,6 +145,7 @@
                 height: 180px;
                 margin: auto;
             }
+            
             .textoContato {
                 font-family: 'Poppins', sans-serif;
                 font-size: 20px;
@@ -407,6 +154,7 @@
                 margin-right: auto;
                 width: max-content;
             }
+            
             .mandeUmOi {
                 font-family: 'Poppins', sans-serif;
                 font-size: 20px;
@@ -421,23 +169,28 @@
                 text-align: center;
                 text-decoration: none;
             }
+            
             .mandeUmOi a:visited {
                 color: inherit;
                 text-decoration: none;
             }
+            
             .mandeUmOi a:hover {
                 color: #FFB20F;
             }
+            
             footer {
                 font-family: 'Poppins', sans-serif;
                 text-align: center;
             }
-            @media screen and (max-width: 768px) {
+            /* responsive */
+            
+            @media screen and (max-width: 1024px) {
                 .container {
                     flex-direction: column;
                 }
                 .mainContainer {
-                    width: 100%;
+                    width: max-content;
                     text-align: center;
                 }
                 .titulo {
@@ -481,9 +234,41 @@
                     margin: 0;
                 }
             }
-            @media screen and (max-width: 500px) {
+            
+            @media screen and (max-width: 768px) {
+                .container {
+                    text-align: center;
+                }
+                .menuMain {}
+                .descricao {
+                    width: 700px;
+                }
+            }
+            
+            @media screen and (max-width: 425px) {
+                .container {
+                    max-width: 100%;
+                    flex-direction: row;
+                    display: flex;
+                }
+                body {
+                    width: 100%;
+                }
+                .mainContainer {
+                    max-width: 100%;
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                }
+                .descricao {
+                    max-width: 400px;
+                    align-self: center;
+                }
                 .menuMain {
                     display: none;
                 }
-            }
-            >>>>>>>164c940aa2c9b1c768bae79d060597ae9745bf6e
+                @media screen and (max-width: 375px) {
+                    .descricao {
+                        max-width: 100%;
+                    }
+                }
