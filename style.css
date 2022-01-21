@@ -194,10 +194,16 @@ a:hover {
 
 .mandeUmOi a:hover {
     color: #FFB20F;
+    text-decoration: none;
 }
 
 .mandeUmOi a:link {
     color: #F2F2F2;
+    text-decoration: none;
+}
+
+.mandeUmOi a:active {
+    color: #FFB20F;
 }
 
 footer {
