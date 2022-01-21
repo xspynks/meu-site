@@ -124,6 +124,19 @@ a:hover {
     width: max-content;
     height: auto;
     gap: 10px;
+    color: #C03221;
+}
+
+.socialContainer a:link {
+    color: #C03221;
+}
+
+.socialContainer a:visited {
+    color: inherit;
+}
+
+.socialContainer a:hover {
+    color: #FFB20F;
 }
 
 .contato {
@@ -171,7 +184,7 @@ a:hover {
 }
 
 .mandeUmOi a:visited {
-    color: inherit;
+    color: #F2F2F2;
     text-decoration: none;
 }
 
