@@ -192,7 +192,7 @@ footer {
         flex-direction: column;
     }
     .mainContainer {
-        width: max-content;
+        width: 100%;
         text-align: center;
     }
     .titulo {
@@ -235,35 +235,20 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        text-align: center;
-    }
-    .descricao {
-        width: 700px;
+@media screen and (max-width: 460px) {
+    .menuMain {
+        display: none;
     }
 }
 
-@media screen and (max-width: 425px) {
-    .container {
-        max-width: 100%;
-        flex-direction: row;
-        display: flex;
+@media screen and (max-width: 350px) {
+    .titulo {
+        font-size: 30px;
     }
-    body {
-        width: 100%;
-    }
-    .mainContainer {
-        max-width: 100%;
-        text-align: center;
-        margin: 0;
-        padding: 0;
+    .subtitulo {
+        font-size: 16px;
     }
     .descricao {
-        max-width: 400px;
-        align-self: center;
-    }
-    .menuMain {
-        display: none;
+        font-size: 14px;
     }
 }
