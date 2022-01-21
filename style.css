@@ -139,6 +139,10 @@ a:hover {
     color: #FFB20F;
 }
 
+.socialContainer a:active {
+    color: #FFB20F;
+}
+
 .contato {
     margin: auto;
     margin-top: 141px;
@@ -190,6 +194,10 @@ a:hover {
 
 .mandeUmOi a:hover {
     color: #FFB20F;
+}
+
+.mandeUmOi a:link {
+    color: #F2F2F2;
 }
 
 footer {
