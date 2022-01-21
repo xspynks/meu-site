@@ -260,6 +260,12 @@ footer {
     .container {
         margin: 0;
     }
+    .socialContainer a:link {
+        color: #F2F2F2;
+    }
+    .socialContainer a:visited {
+        color: #F2F2F2;
+    }
 }
 
 @media screen and (max-width: 460px) {
