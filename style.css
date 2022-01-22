@@ -6,13 +6,15 @@ body {
     border-style: solid solid dotted solid;
 }
 
-.container {
+#header {
     width: 100%;
     height: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    color: #1C0221;
+    margin-right: 65px;
 }
 
 .texto-logo {
@@ -59,23 +61,16 @@ a:hover {
     display: none;
 }
 
-#nav {
-    width: max-content;
-    color: #1C0221;
-    display: flex;
-    margin-right: 65px;
-}
-
-.menu {
+#menu {
     list-style: none;
     padding: 0;
 }
 
-.menu li {
+#menu li {
     display: inline;
 }
 
-.menu li a {
+#menu li a {
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     text-align: center;
@@ -83,7 +78,7 @@ a:hover {
     text-decoration: none;
 }
 
-.menu li a:hover {
+#menu li a:hover {
     text-decoration: underline 3px #FFB20F;
 }
 
@@ -215,7 +210,7 @@ footer {
 /* responsive */
 
 @media screen and (max-width: 1220px) {
-    .container {
+    #header {
         flex-direction: column;
     }
     .mainContainer {
@@ -224,10 +219,6 @@ footer {
     }
     .titulo {
         width: 100%;
-    }
-    #nav {
-        margin: 0;
-        padding: 0;
     }
     .descricao {
         width: 100%;
@@ -238,10 +229,6 @@ footer {
     .contato,
     .textoContato,
     .socialContainer {
-        width: 100%;
-        justify-content: center;
-    }
-    #nav {
         width: 100%;
         justify-content: center;
     }
@@ -260,17 +247,42 @@ footer {
         text-align: center;
         font-size: 18px;
     }
-    .container {
+    #header {
         margin: 0;
     }
 }
 
-@media screen and (max-width: 460px) {
-    .menu {
-        display: none;
+@media screen and (max-width: 520px) {
+    #menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 150px;
+        right: 0px;
+        height: 0;
+        transition: 0.6s;
+        background: #FFFFFA;
+        border: 0px;
+        align-items: center;
+        visibility: hidden;
+        overflow-y: hidden;
     }
     #btn-mobile {
-        display: block;
+        display: flex;
+        padding: .5rem 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+        border: none;
+    }
+    #nav.active #menu {
+        display: flex;
+        height: 100vh;
+        visibility: visible;
+        border: 5px solid #FFB20F;
+        border-top: 0;
+        border-bottom: 3px dashed #FFB20F;
+        box-sizing: border-box;
     }
 }
 
