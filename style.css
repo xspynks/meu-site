@@ -283,6 +283,17 @@ footer {
     #header {
         margin: 0;
     }
+    .sobre-mim {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .corpo-sobre-mim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
 }
 
 @media screen and (max-width: 520px) {
