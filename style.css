@@ -317,6 +317,9 @@ footer {
     .socialContainer {
         font-size: 24px;
     }
+    .boxContato {
+        width: calc(100% - 50px);
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -329,4 +332,5 @@ footer {
     .descricao {
         font-size: 14px;
     }
+    .boxContato {}
 }
