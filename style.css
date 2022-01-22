@@ -312,6 +312,9 @@ footer {
         transform: rotate(-135deg);
         position: absolute;
     }
+    .socialContainer {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 350px) {
