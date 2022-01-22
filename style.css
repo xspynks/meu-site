@@ -362,6 +362,10 @@ footer {
     .boxContato {
         width: calc(100% - 50px);
     }
+    .foto-sobre-mim {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -373,5 +377,12 @@ footer {
     }
     .descricao {
         font-size: 14px;
+    }
+    .foto-sobre-mim {
+        width: 285px;
+        height: 285px;
+    }
+    .texto-sobre-mim {
+        width: 300px;
     }
 }
