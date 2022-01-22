@@ -124,6 +124,7 @@ a:hover {
     height: auto;
     gap: 10px;
     color: #C03221;
+    font-size: 24px;
 }
 
 .socialContainer a:link {
