@@ -86,7 +86,7 @@ a:hover {
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 80px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -201,6 +201,37 @@ a:hover {
 
 .mandeUmOi a:active {
     color: #FFB20F;
+}
+
+.sobre-mim {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.corpo-sobre-mim {
+    display: flex;
+    gap: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+.texto-sobre-mim {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.foto-sobre-mim {
+    width: 480px;
+    height: 480px;
+    padding-top: 50px;
 }
 
 footer {
