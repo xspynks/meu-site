@@ -283,6 +283,34 @@ footer {
         border-top: 0;
         border-bottom: 3px dashed #FFB20F;
         box-sizing: border-box;
+        gap: 0.5rem
+    }
+    #burger {
+        width: 20px;
+        border-top: 2px solid;
+        display: block;
+        color: #FFB20F;
+    }
+    #burger::after,
+    #burger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+    }
+    #nav.active #burger {
+        border-top-color: transparent;
+    }
+    #nav.active #burger::before {
+        transform: rotate(135deg);
+        position: absolute;
+    }
+    #nav.active #burger::after {
+        transform: rotate(-135deg);
+        position: absolute;
     }
 }
 
