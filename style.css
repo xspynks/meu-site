@@ -254,8 +254,9 @@ footer {
         width: 100%;
     }
     .descricao {
-        width: 100%;
+        width: 80%;
         font-size: 18px;
+        align-self: center;
     }
     .subtitulo .socialContainer .subtitulo,
     .titulo,
@@ -365,6 +366,9 @@ footer {
     .foto-sobre-mim {
         width: 300px;
         height: 300px;
+    }
+    .descricao {
+        max-width: calc(100% - 35px);
     }
 }
 
